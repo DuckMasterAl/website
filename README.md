@@ -1,2 +1,3 @@
-##Welcome o/
-Welcome to the DuckMasterAl Website \o/
+## Welcome to the DuckMasterAl Website
+
+This website is under construction...
