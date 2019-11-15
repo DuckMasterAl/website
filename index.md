@@ -6,4 +6,5 @@ permalink: /index.html
 Have Fun... looking at nothing!
 
 *But the 404 Page ;)*
+
 ![Party Cat](https://cdn.discordapp.com/emojis/471624342841851934.gif?v=1)
