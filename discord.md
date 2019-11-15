@@ -9,7 +9,8 @@ In Ducky Quacksters we have:
 • Roles for your Discord Badges
 • Gaming Channels
 • Picture Channels
-• Voice Channels```
+• Voice Channels
+```
 Join our friendly community, Ducky Quacksters by clicking [Here](https://discord.gg/d7AWcRj)
 
 # Featured Discord Servers
@@ -22,5 +23,6 @@ A homework help channel for if you have no idea how to solve that one (or two!) 
 Easy contacts for staff,
 Quizzes with prizes,
 Many bots,
-And most importantly, member's feedback to help improve the server and shape around the needs of others.```
+And most importantly, member's feedback to help improve the server and shape around the needs of others.
+```
 If all of this interests you, then please join by clicking [Here](https://discord.gg/HEz9gsq)
