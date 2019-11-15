@@ -1,4 +1,4 @@
-#Discord Server Owned by Me
+# Discord Server Owned by Me
 
 ## [Ducky Quacksters Discord](https://discord.gg/d7AWcRj)
 Welcome to Ducky Quacksters, a family friendly community based around ducks!
@@ -12,7 +12,7 @@ In Ducky Quacksters we have:
 • Voice Channels```
 Join our friendly community, Ducky Quacksters by clicking [Here](https://discord.gg/d7AWcRj)
 
-#Featured Discord Servers
+# Featured Discord Servers
 
 ## [Cake Mania Discord](https://discord.gg/HEz9gsq)
  
