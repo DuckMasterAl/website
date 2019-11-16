@@ -8,4 +8,5 @@ Have Fun... looking at nothing!
 *But the 404 Page ;)*
 
 **Check out the cool pages below**
-[Discord Servers](https://duckmasteral.github.io/discord)
+
+[x] [Discord Servers](https://duckmasteral.github.io/discord)
