@@ -3,6 +3,7 @@
 ## [Ducky Quacksters Discord](https://discord.gg/d7AWcRj)
 Welcome to Ducky Quacksters, a family friendly community based around ducks!
 In Ducky Quacksters we have:
+
 ```• Friendly Staff
 • Giveaways
 • Applications
@@ -17,7 +18,8 @@ Join our friendly community, Ducky Quacksters by clicking [Here](https://discord
 
 ## [Cake Mania Discord](https://discord.gg/HEz9gsq)
  
-Cake Mania is a server based around music, having fun and helping the people of Discord! (With a bit of cake here and there) Some of the things we provide are: 
+Cake Mania is a server based around music, having fun and helping the people of Discord! (With a bit of cake here and there) Some of the things we provide are:
+
 ```Music channels for you to listen to your favourite songs,
 A homework help channel for if you have no idea how to solve that one (or two!) tricky question,
 Easy contacts for staff,
