@@ -11,4 +11,4 @@ Have Fun... looking at nothing!
 
 [Discord Servers](https://duckmasteral.github.io/discord)
 
-![Duckpfp](https://random-d.uk/api/126.jpg)
+![DuckImage](https://random-d.uk/api/126.jpg)
