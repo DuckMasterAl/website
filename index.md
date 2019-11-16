@@ -9,4 +9,4 @@ Have Fun... looking at nothing!
 
 **Check out the cool pages below**
 
-[x] [Discord Servers](https://duckmasteral.github.io/discord)
+- [x] [Discord Servers](https://duckmasteral.github.io/discord)
