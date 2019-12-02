@@ -10,5 +10,6 @@ Have Fun... looking at nothing!
 **Check out the cool pages below**
 
 [Discord Servers](https://duckmasteral.github.io/discord)
+[Thanks](https://duckmasteral.github.io/thanks)
 
 ![DuckImage](https://random-d.uk/api/126.jpg)
