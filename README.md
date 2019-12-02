@@ -1,2 +1,3 @@
-# Welcome to the DuckMasterAl Website
-## This website is under construction...
+# Welcome to the DuckMasterAl Website!
+## (Currently Under Construction)
+Check it out [here](https://duckmasteral.github.io/) --> https://duckmasteral.github.io/
