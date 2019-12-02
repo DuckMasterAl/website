@@ -1,3 +1,5 @@
+# People I Need to Credit
+Thank you to Happy Hippo#2646, Anri Quacks#6754, and HarryPGaming#3654 :smile:
 # Discord Server Owned by Me
 
 ## [Ducky Quacksters Discord](https://discord.gg/d7AWcRj)
