@@ -17,7 +17,7 @@ Thank you Hippo for drawing art for me and always supporting out the community o
 
 Thank you for taking a stance when it was necessary.
 
-*You can check out Hippo's Youtube Channel [here](https://www.youtube.com/channel/UCr3o6nnhKR9wpozLm0Opcfw)
+*You can check out Hippo's Youtube Channel [here](https://www.youtube.com/channel/UCr3o6nnhKR9wpozLm0Opcfw)*
 ## Xan#2519
 Thank you Xan for beliving in me and helping the `:D` server grow by adding your own special touches to it.
 
