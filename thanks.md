@@ -22,6 +22,6 @@ Thank you Xan for beliving in me and helping the `:D` server grow by adding your
 Thank you for helping out others when they were having tough times in their life and giving support and advice to them.
 
 
-Thank you guys for everything :D
-
-If you belive you should be on this list please DM Me on Discord `DuckMasterAl#0001`
+# Thank you guys for everything :D
+## You're all Amazing :)
+### If you belive you should be on this list please DM Me on Discord `DuckMasterAl#0001`
