@@ -2,7 +2,7 @@
 Thank you all for being supportive, motivative and great friends.
 
 You all have personal thank you notes below.
-## HarryPGaming#3654
+## [HarryPGaming#3654](https://www.youtube.com/channel/UCr35D4WaXok9l5r5sLfLHmw)
 Thank you Harry for always being able to make me laugh and being an amazing friend. 
 
 Thank you for letting me (a random person) be staff and make videos with you in a new series.
