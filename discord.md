@@ -1,5 +1,5 @@
 # People I Need to Credit
-Thank you to Happy Hippo#2646, Anri Quacks#6754, and HarryPGaming#3654.
+Thank you to Happy Hippo#2646, Anri Quacks#6754, Xan#2519 and HarryPGaming#3654.
 
 I wouldn't be here without all their support and help. Thank you guys :)
 # Discord Server Owned by Me
