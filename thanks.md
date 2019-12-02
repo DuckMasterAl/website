@@ -24,4 +24,4 @@ Thank you for helping out others when they were having tough times in their life
 
 # Thank you guys for everything :D
 ## You're all Amazing :)
-### If you belive you should be on this list please DM Me on Discord `DuckMasterAl#0001`
+If you belive you should be on this list please DM Me on Discord `DuckMasterAl#0001`
