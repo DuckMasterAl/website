@@ -1,4 +1,6 @@
-# People I Need to Credit
+# Discord Servers
+
+## People I Need to Credit
 Please check the people that I need to credit for their help with my discord server's [here](https://duckmasteral.github.io/thanks)
 
 # Discord Server Owned by Me
