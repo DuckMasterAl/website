@@ -19,10 +19,6 @@ In Ducky Quacksters we have:
 ```
 Join our friendly community, Ducky Quacksters by clicking [Here](https://discord.gg/d7AWcRj)
 
-*pssssst a new one is coming out soon*
-
-*sneak peak can be found at __1__ website*
-
 # Featured Discord Servers
 
 ## [Cake Mania Discord](https://discord.gg/HEz9gsq)
