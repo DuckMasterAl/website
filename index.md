@@ -9,4 +9,8 @@ permalink: /index.html
 
 [Thanks](https://duckmasteral.github.io/thanks)
 
-The 404 Page - But I don't know how to take you to that page
+The 404 Page - But I don't know how to take you to that page ;)
+
+I really like this duck emote :P
+
+![🦆](https://cdn.emojidex.com/emoji/seal/duck.png "duck")
