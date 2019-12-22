@@ -2,15 +2,7 @@
 permalink: /index.html
 ---
 # Welcome to the DuckMasterAl Website
-## This website is under construction...
-### Check out the pages below!
+## Table of Contents
+[Discord Servers](https://duckmasteral.github.io/discord) | [Thanks](https://duckmasteral.github.io/thanks)
 
-[Discord Servers](https://duckmasteral.github.io/discord)
-
-[Thanks](https://duckmasteral.github.io/thanks)
-
-The 404 Page - But I don't know how to take you to that page ;)
-
-I really like this duck emote :P
-
-![🦆](https://cdn.emojidex.com/emoji/seal/duck.png "duck")
+*Note that this site will be used for DuckMasterAl and Quacky Bot but Quacky bot is currently in beta.*
