@@ -1,4 +1,6 @@
-# People I Need to Credit
+# Discord Servers
+
+## People I Need to Credit
 Please check the people that I need to credit for their help with my discord server's [here](https://duckmasteral.github.io/thanks)
 
 # Discord Server Owned by Me
@@ -16,10 +18,6 @@ In Ducky Quacksters we have:
 • Voice Channels
 ```
 Join our friendly community, Ducky Quacksters by clicking [Here](https://discord.gg/d7AWcRj)
-
-*pssssst a new one is coming out soon*
-
-*sneak peak can be found at __1__ website*
 
 # Featured Discord Servers
 
