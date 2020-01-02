@@ -4,7 +4,7 @@
 
 2. **Download Forge Client 1.7.10**
 
-      2a. [Mac Download](https://file.io/wUo0xe) | [Windows Download](https://file.io/ZOyHVu)
+      2a. [Mac Download](https://file.io/wUo0xe) \| [Windows Download](https://file.io/ZOyHVu)
 
       2b. Click "Install Client" then Ok.
       
