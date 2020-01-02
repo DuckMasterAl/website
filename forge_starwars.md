@@ -18,11 +18,11 @@
 
 4. **Download the Appropriate Mods for the Server.**
 
-Currently you only need to download __Advanced Lightsabers__ and __BiblioCraft__ (Updated 1/2/2020)
+      Currently you only need to download __Advanced Lightsabers__ and __BiblioCraft__ (Updated 1/2/2020)
 
-[You can download them here](https://file.io/G6iHjV)
+      [You can download them here](https://file.io/G6iHjV)
 
-*NOTE: For the next step you'll need to unzip the zip folder.*
+      *NOTE: For the next step you'll need to unzip the zip folder.*
 
 5. **Find your .minecraft Folder.**
 
