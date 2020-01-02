@@ -1,4 +1,4 @@
-# How to install Forge 1.7.10 for the Star Wars Server
+# How to Install Forge 1.7.10 for the Star Wars Server
 
 1. **Run Minecraft 1.7.10 (Vanilla)**
 
