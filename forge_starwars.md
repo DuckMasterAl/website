@@ -18,9 +18,9 @@
 
 4. **Download the Appropriate Mods for the Server.**
 
-      Currently you only need to download __Advanced Lightsabers__ and __BiblioCraft__ (Updated 1/2/2020)
+      Currently you only need to download __Advanced Lightsabers__, __BiblioCraft__, and __Inventory Pets__ (Updated 1/21/2020)
 
-      [You can download them here](http://www.mediafire.com/file/1cnumntatvdlqcf/Star_Wars.zip/file)
+      [You can download them here](http://www.mediafire.com/file/06w6ju4bm1cn11d/Star_Wars.zip/file)
 
       *NOTE: For the next step you'll need to unzip the zip folder.*
 
