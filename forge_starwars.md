@@ -4,7 +4,7 @@
 
 2. **Download Forge Client 1.7.10**
 
-      2a. [Mac Download](https://file.io/wUo0xe) \| [Windows Download](https://file.io/EMzjC9)
+      2a. [Mac Download](http://www.mediafire.com/file/dxyikeqtx76x8yy/forge-1.7.10-10.13.4.1558-1.7.10-installer.jar/file) \| [Windows Download](http://www.mediafire.com/file/98pvwflc5pwvp49/forge-1.7.10-10.13.4.1558-1.7.10-installer-win.exe/file)
 
       2b. Click "Install Client" then Ok.
       
@@ -20,7 +20,7 @@
 
       Currently you only need to download __Advanced Lightsabers__ and __BiblioCraft__ (Updated 1/2/2020)
 
-      [You can download them here](https://file.io/G6iHjV)
+      [You can download them here](http://www.mediafire.com/file/1cnumntatvdlqcf/Star_Wars.zip/file)
 
       *NOTE: For the next step you'll need to unzip the zip folder.*
 
