@@ -1,8 +1,8 @@
 # My Progress
 
-![0% Progress](https://cdn.discordapp.com/attachments/446138606336344067/673592523427545088/progress-overall-25.png)
+![50% Progress](https://pasteboard.co/ISR6ElS.png)
 
-## Progress Bar Currently At 25%
+## Progress Bar Currently At 50%
 
 ### or is it...
 
