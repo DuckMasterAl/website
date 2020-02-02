@@ -1,5 +1,5 @@
 # My Progress
 
-![0% Progress](https://cdn.discordapp.com/attachments/446138606336344067/673572905744990268/progress-overall-0.png)
+![0% Progress](https://cdn.discordapp.com/attachments/446138606336344067/673592523427545088/progress-overall-25.png)
 
-## Progress Bar Currently At 0%
+## Progress Bar Currently At 25%
