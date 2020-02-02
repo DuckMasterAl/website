@@ -1,6 +1,6 @@
 # My Progress
 
-![50% Progress](https://pasteboard.co/ISR6ElS.png)
+![50% Progress](https://cdn.discordapp.com/attachments/588725927928659988/673600304176169040/progress-overall-50.png)
 
 ## Progress Bar Currently At 50%
 
