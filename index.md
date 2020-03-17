@@ -5,4 +5,4 @@ permalink: /index.html
 ## Table of Contents
 [Discord Servers](https://duckmasteral.github.io/discord) | [Thanks](https://duckmasteral.github.io/thanks)
 
-*Note that this site will be used for DuckMasterAl and Quacky Bot, but Quacky bot is currently in beta.*
+Hey! Currently this site isn't fully ready for Quacky Bot yet... You can check out Quacky's current website [here](https://duckmasteral.gitbook.io/quacky/)
