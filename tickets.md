@@ -21,7 +21,7 @@ This is so that my (Duck) phone doesn't blow up with questions needing to be ans
 
 ## I'm still going to do it...
 
-Well... I may read your message but not respond for at least 5 hours. This is since we have a system.
+Well... I may read your message but not respond for at least 5 hours because we have a place for those messages.
 
 Even after those 5 hours your question will not be answered and you will be redirected to this page again and told to fill out a support ticket.
 So stop doing it... it's useless and may get you blocked from messaging me.
