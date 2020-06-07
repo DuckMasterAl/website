@@ -1,3 +1,6 @@
+---
+permalink: /lmao.html
+---
 # hehe Duck broke it
 ## just click link below 4 cookie or something i guess
 
