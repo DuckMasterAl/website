@@ -5,4 +5,6 @@ permalink: /index.html
 ## Table of Contents
 [Discord Servers](https://duckmasteral.github.io/discord) | [Thanks](https://duckmasteral.github.io/thanks)
 
-Hey! Currently this site isn't fully ready for Quacky Bot yet... You can check out Quacky's current website [here](https://duckmasteral.gitbook.io/quacky/)
+This website will be made for me to post my coding things... I'm really tired right now but I'll do it tomorrow
+
+From: Duck 6/19/2020
