@@ -3,18 +3,17 @@ name: Bug report
 about: Create a bug report if anything's wrong with the website!
 title: ''
 labels: bug
-assignees: 'duckmasteral'
+assignees: DuckMasterAl
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Website Page** <!-- What's the website's page that has a bug? -->
 
 **To Reproduce**
-Steps to reproduce the behavior:
+Steps to reproduce the behavior (Optional):
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**What Happens?** <!-- A clear and concise description of what the bug is. -->
 
-**Additional context**
-Add any other context about the problem here.
+**What Should Happen?** <!-- A clear and concise description of what you expected the bot to do (Optional). -->
+
+**Additional context** <!-- Add any other context about the problem here. -->
