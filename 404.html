@@ -16,19 +16,24 @@
   <header>
     <script language="javascript">
     function changeImage() {
-      if (document.getElementById('support404').src == 'https://duck.js.org/files/support.webp')
+      var image = document.getElementById("support404");
+      if (image.src == 'https://duck.js.org/files/support.webp')
       {
-        document.getElementById("support404").src = "https://duck.js.org/files/angrysupport.webp";
+        var mp3Source = '<source src="' + 'files/ping' + '.mp3" type="audio/mpeg">';
+        var oggSource = '<source src="' + 'files/ping' + '.ogg" type="audio/ogg">';
+        var embedSource = '<embed hidden="true" autostart="true" loop="false" src="' + 'files/ping' +'.mp3">';
+        image.innerHTML='<audio autoplay="autoplay">' + mp3Source + oggSource + embedSource + '</audio>'
+        image.src = "https://duck.js.org/files/angrysupport.webp";
       }
-      else if (document.getElementById("support404").src == "https://duck.js.org/files/angrysupport.webp")
+      else if (image.src == "https://duck.js.org/files/angrysupport.webp")
       {
-        document.getElementById("support404").src = "https://duck.js.org/files/support.webp";
+        image.src = "https://duck.js.org/files/support.webp";
       }
     }
     </script>
     <h1>404 Duck Not Found!</h1>
     <h3 class="center">Initating a Duck Support Team...</h3>
-    <a onclick="changeImage()"><img src="/files/support.webp" width="200" height="200" id="support404" alt="Bongo Duck Support Image"></a>
+    <a onclick="changeImage()"><img src="/files/angrysupport.webp" width="200" height="200" id="support404" alt="Bongo Duck Support Image"></a>
     <hr/><br/>
   </header>
   <body>
