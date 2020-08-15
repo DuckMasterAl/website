@@ -119,4 +119,5 @@ p {
 #support404:hover {
   background-color: #4caf50;
   border: 2px solid orange;
+  cursor: default;
 }
