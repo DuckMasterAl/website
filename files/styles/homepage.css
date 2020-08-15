@@ -1,7 +1,7 @@
 .button {
   background-color: #2c2f33;
   color: orange;
-  font-size: 14px;
+  font-size: 16px;
   transition-duration: 0.4s;
   border: 2px solid #4caf50;
   border-radius: 8px;
@@ -13,7 +13,7 @@
 }
 
 .button:hover {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50;
   color: white;
   cursor: pointer;
 }
@@ -21,7 +21,8 @@
 h2 {
   font-size: 145%;
   font-family: "Happy Monkey";
-  color: #7289da;
+  color: #4caf50;
+  text-align: center;
 }
 
 .avatar {
@@ -44,18 +45,18 @@ h1 {
   top: 17px;
 }
 
-p, span {
-  color: #4caf50;
-}
-
 body {
   background-color: #2c2f33;
 }
 
-h3 {
+h3, h4 {
   color: #7289da;
-  font-family: "Happy Monkey";
-  text-align: center;
+  font-family: "Baloo Tamma 2";
+  font-size: 190%;
+  text-indent: 3px;
+}
+
+h4 {
   font-size: 150%;
 }
 
@@ -66,9 +67,93 @@ hr {
   border-width: 3.5px;
 }
 
-.rectangle {
-  height: 50px;
+.center {
+  text-align: center;
+}
+
+.blue {
+  color: #00aeff;
+}
+
+.blurple {
+  color: #7289da;
+}
+
+.green {
+  color: #4caf50;
+}
+
+.orange {
+  color: orange;
+}
+
+a {
+  transition-duration: 0.4s;
+  color: #7289da;
+}
+
+a:hover {
+  color: #4caf50;
+  cursor: pointer;
+}
+
+p {
+  color: orange;
+  font-family: "Comfortaa";
+  text-indent: 10px;
+}
+
+.nocenter {
+  text-align: left;
+}
+
+.bottom {
+  height: 20px;
+  width: 100%;
+  background-color: #23272A;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+}
+
+.projectimg {
   width: 100px;
-  background-color: #fff;
+  height: 100px;
   border: 2px solid #4caf50;
+  border-radius: 100%;
+  transition-duration: 0.4s;
+}
+
+.projectimg:hover {
+  background-color: #4caf50;
+  border: 2px solid orange;
+}
+
+.divtext {
+  position: relative;
+  bottom: 40px;
+  color: orange;
+  font-family: "Comfortaa";
+  left: 12px;
+}
+
+.sbutton {
+  background-color: #2c2f33;
+  color: orange;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border: 2px solid #7289da;
+  border-radius: 8px;
+  font-family: "Montserrat";
+}
+
+.sbutton:hover {
+  background-color: orange;
+  color: black;
+  border: 2px solid #4caf50;
+  cursor: pointer;
+}
+
+i {
+  color: yellow;
 }
