@@ -1,4 +1,6 @@
 .button {
+  text-decoration: none;
+  padding: 1px 6px;
   background-color: #2c2f33;
   color: orange;
   font-size: 16px;
@@ -114,6 +116,8 @@ p {
   border-radius: 6px;
   text-align: center;
   color: white;
+  padding: 5px 5px;
+  font-family: "Baloo Tamma 2";
 }
 
 .projectimg {
@@ -135,4 +139,27 @@ p {
   color: orange;
   font-family: "Comfortaa";
   left: 12px;
+}
+
+.sbutton {
+  text-decoration: none;
+  padding: 1px 6px;
+  background-color: #2c2f33;
+  color: orange;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border: 2px solid #7289da;
+  border-radius: 8px;
+  font-family: "Montserrat";
+}
+
+.sbutton:hover {
+  background-color: orange;
+  color: black;
+  border: 2px solid #4caf50;
+  cursor: pointer;
+}
+
+i {
+  color: yellow;
 }
