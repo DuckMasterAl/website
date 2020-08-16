@@ -38,6 +38,57 @@ h2 {
   top: 10px;
 }
 
+@media (max-width: 1340px) {
+  .avatar {
+    left: 27%;
+  }
+}
+
+@media (max-width: 1070px) {
+  .avatar {
+    left: 25%;
+  }
+}
+
+@media (max-width: 940px) {
+  .avatar {
+    left: 22%;
+  }
+}
+
+@media (max-width: 790px) {
+  .avatar {
+    left: 20%;
+  }
+}
+
+@media (max-width: 714px) {
+  .avatar {
+    left: 17%;
+  }
+}
+
+@media (max-width: 630px) {
+  .avatar {
+    left: 13%;
+  }
+}
+
+@media (max-width: 550px) {
+  .avatar {
+    left: 10%;
+  }
+}
+
+@media (max-width: 525px) {
+  .avatar {
+    left: 6%;
+  }
+  #h1 {
+    left: 39%;
+  }
+}
+
 h1 {
   font-family: "Londrina Shadow";
   font-size: 370%; /* 350% */
@@ -50,6 +101,7 @@ h1 {
 body {
   background-color: #2c2f33;
   visibility: hidden;
+  overflow-x: hidden;
 }
 
 h3, h4 {
