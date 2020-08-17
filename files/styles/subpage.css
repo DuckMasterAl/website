@@ -121,3 +121,16 @@ p {
   border: 2px solid orange;
   cursor: default;
 }
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+.imgborder {
+  border: 2px solid orange;
+  background-color: #4caf50;
+  border-radius: 100%;
+}
