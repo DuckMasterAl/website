@@ -2,13 +2,13 @@
   color: lime
 }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .class {
     color: red
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .class {
     color: blue
   }
