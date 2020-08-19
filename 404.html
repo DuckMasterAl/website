@@ -13,30 +13,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 | DuckMasterAl</title>
   </head>
-  <header>
-    <script language="javascript">
-    function changeImage() {
-      var image = document.getElementById("support404");
-      if (image.src == 'https://duck.js.org/files/support.webp')
-      {
-        var mp3Source = '<source src="' + 'files/ping' + '.mp3" type="audio/mpeg">';
-        var oggSource = '<source src="' + 'files/ping' + '.ogg" type="audio/ogg">';
-        var embedSource = '<embed hidden="true" autostart="true" loop="false" src="' + 'files/ping' +'.mp3">';
-        image.innerHTML='<audio autoplay="autoplay">' + mp3Source + oggSource + embedSource + '</audio>'
-        image.src = "https://duck.js.org/files/angrysupport.webp";
-      }
-      else if (image.src == "https://duck.js.org/files/angrysupport.webp")
-      {
-        image.src = "https://duck.js.org/files/support.webp";
-      }
-    }
-    </script>
     <h1>404 Duck Not Found!</h1>
     <h3 class="center">Initating a Duck Support Team...</h3>
     <a onclick="changeImage()"><img src="/files/support.webp" width="200" height="200" id="support404" alt="Bongo Duck Support Image"></a>
     <hr/><br/>
   </header>
-  <body>
+  <body onload="js_Load()">
+    <header>
+      <script language="javascript">
+      function js_Load() {
+        document.body.style.visibility='visible';
+      }
+      function changeImage() {
+        var image = document.getElementById("support404");
+        if (image.src == 'https://duck.js.org/files/support.webp')
+        {
+          var mp3Source = '<source src="' + 'files/ping' + '.mp3" type="audio/mpeg">';
+          var oggSource = '<source src="' + 'files/ping' + '.ogg" type="audio/ogg">';
+          var embedSource = '<embed hidden="true" autostart="true" loop="false" src="' + 'files/ping' +'.mp3">';
+          image.innerHTML='<audio autoplay="autoplay">' + mp3Source + oggSource + embedSource + '</audio>'
+          image.src = "https://duck.js.org/files/angrysupport.webp";
+        }
+        else if (image.src == "https://duck.js.org/files/angrysupport.webp")
+        {
+          image.src = "https://duck.js.org/files/support.webp";
+        }
+      }
+      </script>
     <p>Hello! I'm  from Duck Support. The issue is that this page doesn't exist!</p>
     <p>It either has been moved to a different link or removed from the site.</p>
     <p>If you think this page should exist <a class="blue" href="https://github.com/DuckMasterAl/DuckMasterAl.github.io/issues/new/choose">Fill out an Issue Here!</a> Thanks 🦆</p>
