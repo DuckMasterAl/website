@@ -28,74 +28,24 @@ h2 {
 }
 
 .avatar {
-  display: block;
-  position: absolute;
+  display: inline;
+  position: relative;
   border: 4px solid #4caf50;
   border-radius: 100%;
   width: 150px;
   height: 150px;
   left: 30%;
-  top: 10px;
 }
 
-@media (max-width: 1340px) {
-  .avatar {
-    left: 27%;
-  }
-}
 
-@media (max-width: 1070px) {
-  .avatar {
-    left: 25%;
-  }
-}
-
-@media (max-width: 940px) {
-  .avatar {
-    left: 22%;
-  }
-}
-
-@media (max-width: 790px) {
-  .avatar {
-    left: 20%;
-  }
-}
-
-@media (max-width: 714px) {
-  .avatar {
-    left: 17%;
-  }
-}
-
-@media (max-width: 630px) {
-  .avatar {
-    left: 13%;
-  }
-}
-
-@media (max-width: 550px) {
-  .avatar {
-    left: 10%;
-  }
-}
-
-@media (max-width: 525px) {
-  .avatar {
-    left: 6%;
-  }
-  #h1 {
-    left: 39%;
-  }
-}
-
-h1 {
+h1, #h1 {
   font-family: "Londrina Shadow";
-  font-size: 370%; /* 350% */
+  font-size: 370%;
   color: #00aeff;
-  position: absolute;
-  left: 42%;
-  top: 17px;
+  position: relative;
+  left: 32%;
+  bottom: 50px;
+  display: inline;
 }
 
 body {
