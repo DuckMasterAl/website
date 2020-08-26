@@ -193,3 +193,7 @@ i {
   font-size: 370%;
   color: #00aeff;
 }
+
+header > hr {
+  margin-bottom: 2rem;
+}
