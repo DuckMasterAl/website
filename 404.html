@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Londrina+Shadow&family=Montserrat&family=Baloo+Tamma+2&family=Comfortaa&display=swap" rel="stylesheet">
-    <link href="files/styles/subpage.css" rel="stylesheet">
-    <link rel="icon" href="files/support.ico">
+    <link href="/files/styles/subpage.css" rel="stylesheet">
+    <link rel="icon" href="/files/support.ico">
     <meta charset="UTF-8">
     <meta name="og:image" itemprop="image" content="https://duck.js.org/files/support.webp">
     <meta name="description" content="This page doesn't exist!">
@@ -20,14 +20,14 @@
     }
     function changeImage() {
       var image = document.getElementById("support404");
-      if (image.src.includes('files/support')){
-        var mp3Source = '<source src="' + 'files/ping' + '.mp3" type="audio/mpeg">';
-        var oggSource = '<source src="' + 'files/ping' + '.ogg" type="audio/ogg">';
-        var embedSource = '<embed hidden="true" autostart="true" loop="false" src="' + 'files/ping' +'.mp3">';
+      if (image.src.includes('https://duck.js.org/files/support.webp')){
+        var mp3Source = '<source src="' + '/files/ping' + '.mp3" type="audio/mpeg">';
+        var oggSource = '<source src="' + '/files/ping' + '.ogg" type="audio/ogg">';
+        var embedSource = '<embed hidden="true" autostart="true" loop="false" src="' + '/files/ping' +'.mp3">';
         image.innerHTML='<audio autoplay="autoplay">' + mp3Source + oggSource + embedSource + '</audio>'
-        image.src = "files/angrysupport.webp";
+        image.src = "https://duck.js.org/files/angrysupport.webp";
       } else if (image.src.includes("files/angrysupport.webp")) {
-        image.src = "files/support.webp";
+        image.src = "https://duck.js.org/files/support.webp";
       }
     }
     </script>
