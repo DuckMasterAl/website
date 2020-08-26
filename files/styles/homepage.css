@@ -166,3 +166,30 @@ p {
 i {
   color: yellow;
 }
+
+/* Header */
+
+.header-masthead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-masthead > img {
+  border: 4px solid #4caf50;
+  border-radius: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  left: 30%;
+}
+
+.header-masthead > span {
+  margin-left: 1rem;
+  font-family: "Londrina Shadow";
+  font-size: 370%;
+  color: #00aeff;
+}
