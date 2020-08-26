@@ -123,19 +123,6 @@ p {
   font-family: "Baloo Tamma 2";
 }
 
-.projectimg {
-  width: 100px;
-  height: 100px;
-  border: 2px solid #4caf50;
-  border-radius: 100%;
-  transition-duration: 0.4s;
-}
-
-.projectimg:hover {
-  background-color: #4caf50;
-  border: 2px solid orange;
-}
-
 .divtext {
   position: relative;
   bottom: 40px;
@@ -165,4 +152,38 @@ p {
 
 i {
   color: yellow;
+}
+
+/* Project Section */
+
+.project {
+  font-family: "Comfortaa";
+  display: flex;
+  flex-direction: row;
+}
+
+.project-description {
+  display: flex;
+  align-items: center;
+}
+
+.project-description {
+  padding: 1em;
+}
+
+.project-description > span {
+  color: orange;
+}
+
+.project-image > a > img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #4caf50;
+  border-radius: 100%;
+  transition-duration: 0.4s;
+}
+
+.project-image:hover > a > img {
+  background-color: #4caf50;
+  border: 2px solid orange;
 }
