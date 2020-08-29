@@ -219,7 +219,7 @@ header > hr {
   color: orange;
 }
 
-.project-image > a > img {
+.project-image > a > picture > img {
   width: 100px;
   height: 100px;
   border: 2px solid #4caf50;
@@ -227,6 +227,6 @@ header > hr {
   transition-duration: 0.4s;
 }
 
-.project-image:hover > a > img {
+.project-image:hover > a > picture > img {
   background-color: #4caf50;
   border: 2px solid orange;
