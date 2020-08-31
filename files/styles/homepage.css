@@ -171,9 +171,9 @@ i {
 
 .emoji {
   display: inline;
-  width: 2.7ex;
-  height: 2.7ex;
-  vertical-align: -0.3em;
+  width: 35px;
+  height: 35px;
+  vertical-align: -10px;
 }
 
 /* Header */
