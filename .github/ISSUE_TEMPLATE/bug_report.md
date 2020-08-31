@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a bug report if anything's wrong with the website!
 title: ''
-labels: bug
+labels: 'bug :bug:'
 assignees: DuckMasterAl
 
 ---
