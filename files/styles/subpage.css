@@ -111,22 +111,6 @@ p {
   text-indent: 10px;
 }
 
-#support404 {
-  max-width: 200px;
-  max-height: 200px;
-  width: 100%;
-  height: auto;
-  border: 2px solid #4caf50;
-  border-radius: 100%;
-  transition-duration: 0.4s;
-}
-
-#support404:hover {
-  background-color: #4caf50;
-  border: 2px solid orange;
-  cursor: default;
-}
-
 .imgcenter {
   display: block;
   margin-left: auto;
@@ -140,10 +124,30 @@ p {
   border-radius: 100%;
 }
 
-/* 404 Header */
+/* 404 Stuff */
 .header-masthead {
   justify-content: center;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+}
+
+.support404 {
+  max-width: 200px;
+  max-height: 200px;
+  width: 100%;
+  height: auto;
+  border: 2px solid #4caf50;
+  border-radius: 100%;
+  transition-duration: 0.4s;
+}
+
+.support404:hover {
+  background-color: #4caf50;
+  border: 2px solid orange;
+  cursor: default;
+}
+
+#support1, #support2 {
+  display: none;
 }
