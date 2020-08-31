@@ -169,6 +169,13 @@ i {
   color: yellow;
 }
 
+.emoji {
+  display: inline;
+  width: 2.7ex;
+  height: 2.7ex;
+  vertical-align: -0.3em;
+}
+
 /* Header */
 
 .header-masthead {
