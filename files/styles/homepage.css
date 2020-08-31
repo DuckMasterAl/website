@@ -8,6 +8,7 @@
   border: 2px solid #4caf50;
   border-radius: 8px;
   font-family: "Montserrat";
+  outline: none;
 }
 
 .buttondiv {
@@ -154,6 +155,7 @@ p {
   border: 2px solid #7289da;
   border-radius: 8px;
   font-family: "Montserrat";
+  outline: none;
 }
 
 .sbutton:hover {
