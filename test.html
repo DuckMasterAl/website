@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Londrina+Shadow&family=Montserrat&family=Baloo+Tamma+2&family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="files/styles/subpage.css" rel="stylesheet">
+    <link rel="icon" href="files/support.ico">
+    <meta charset="UTF-8">
+    <meta name="og:image" itemprop="image" content="https://duck.js.org/files/support.webp">
+    <meta name="description" content="This page doesn't exist!">
+    <meta name="theme-color" content="#00aeff">
+    <meta property="og:locale" content="en_US">
+    <meta name="author" content="DuckMasterAl">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | DuckMasterAl</title>
+  </head>
+  <body onload="js_Load()">
+    <script language="javascript">
+    function js_Load() {
+      document.body.style.visibility='visible';
+    }
+    function changeImage() {
+      var image1 = document.getElementById("support1");
+      var image2 = document.getElementById("support2");
+      if (image1.style.display='block'){
+        var mp3Source = '<source src="' + 'files/ping' + '.mp3" type="audio/mpeg">';
+        var oggSource = '<source src="' + 'files/ping' + '.ogg" type="audio/ogg">';
+        var embedSource = '<embed hidden="true" autostart="true" loop="false" src="' + 'files/ping' +'.mp3">';
+        image1.innerHTML='<audio autoplay="autoplay">' + mp3Source + oggSource + embedSource + '</audio>'
+        image1.style.display='none';
+        image2.style.display='block';
+      } else if (image2.style.display='block') {
+        image2.style.display='none';
+        image1.style.display='block';
+      }
+    }
+    </script>
+    <header>
+      <div class="header-masthead">
+        <div style="flex-shrink: 3;">
+          <picture>
+            <source type="image/webp" srcset="files/support.webp">
+            <source type="image/png" srcset="files/support.png">
+            <img src="files/support.png" class="support404" id="support1" alt="Bongo Duck Support Image" onclick="changeImage()"/>
+          </picture>
+          <picture>
+            <source type="image/webp" srcset="files/angrysupport.webp">
+            <source type="image/png" srcset="files/angrysupport.png">
+            <img src="files/angrysupport.png" class="support404" id="support2" alt="Angry Bongo Duck Support Image" onclick="changeImage()"/>
+          </picture>
+        </div>
+        <div style="margin: 1em;"></div>
+        <div style="flex-shrink: 0;">
+          <h1>404 Duck Not Found!</h1>
+          <h3>Initating a Duck Support Team...</h3>
+        </div>
+      </div>
+      <hr>
+    </header>
+
+    <p>Hello! I'm from Duck Support. The issue is that this page doesn't exist!</p>
+    <p>It either has been moved to a different link or removed from the site.</p>
+    <p>If you think this page should exist <a class="blue" href="https://github.com/DuckMasterAl/DuckMasterAl.github.io/issues/new/choose">Fill out an Issue Here!</a> Thanks 🦆</p>
+    <p>You can now <button class="button" onclick="window.open('/index.html')">Go back to the homepage</button> or <button class="button" onclick="window.history.back();">Go to the last page you were on</button></p>
+  </body>
+  <footer>
+    <div style="position: absolute; bottom: 5px;" class="bottom">©️ Copyright 2020 DuckMasterAl | This Website is Under the <a href="https://github.com/DuckMasterAl/DuckMasterAl.github.io/blob/master/LICENSE">GPL-3.0 License</a></div>
+  </footer>
+</html>
