@@ -24,7 +24,7 @@ h4 {
   font-size: 150%;
 }
 
-p {
+p, li {
   color: orange;
   font-family: "Comfortaa";
   text-indent: 10px;
@@ -71,9 +71,9 @@ body {
   outline: none;
 }
 
-.bottom {
-  left: 0%;
-  bottom: 0%;
+.bottom, .bottom2 {
+  position: absolute;
+  bottom: 5px;
   width: 100%;
   height: 20px;
   background-color: #23272A;
@@ -83,6 +83,24 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   font-family: "Baloo Tamma 2";
+}
+
+.bottom2 {
+  height: 50px;
+  display: none;
+}
+
+.emoji {
+  display: inline;
+  width: 25px;
+  height: 25px;
+  vertical-align: -5px;
+}
+
+.cemoji {
+  display: inline;
+  width: 10px;
+  height: 10px;
 }
 
 .button:hover {
@@ -112,7 +130,7 @@ body {
   transition-duration: 0.4s;
 }
 
-.img {
+.img:hover {
   background-color: #4caf50;
   border: 2px solid orange;
 }
@@ -149,6 +167,7 @@ body {
 }
 
 .support404 {
+  display: block;
   max-width: 200px;
   max-height: 200px;
   width: 100%;
@@ -164,6 +183,26 @@ body {
   cursor: default;
 }
 
-#support1, #support2 {
+#support1 {
+  display: block;
+}
+
+#support2 {
   display: none;
+}
+
+/* Media Tags */
+
+@media (max-width: 599px) {
+  .bottom, .support404, #support1, #support2 {
+    display: none;
+  }
+  .bottom2 {
+    display: block;
+  }
+  #text-div-404 {
+    position: relative;
+    left: 5%;
+    font-size: 70%;
+  }
 }
