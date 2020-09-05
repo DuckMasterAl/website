@@ -22,9 +22,9 @@
          var image1 = document.getElementById("support1");
          var image2 = document.getElementById("support2");
          if (!image1.style.display || image1.style.display==='block'){
-           var mp3Source = '<source src="' + 'files/ping' + '.mp3" type="audio/mpeg">';
-           var oggSource = '<source src="' + 'files/ping' + '.ogg" type="audio/ogg">';
-           var embedSource = '<embed hidden="true" autostart="true" loop="false" src="' + 'files/ping' +'.mp3">';
+           var mp3Source = '<source src="' + '/files/ping' + '.mp3" type="audio/mpeg">';
+           var oggSource = '<source src="' + '/files/ping' + '.ogg" type="audio/ogg">';
+           var embedSource = '<embed hidden="true" autostart="true" loop="false" src="' + '/files/ping' +'.mp3">';
            image1.innerHTML='<audio autoplay="autoplay">' + mp3Source + oggSource + embedSource + '</audio>'
            image1.style.display='none';
            image2.style.display='block';
@@ -78,8 +78,8 @@
     <div style="position: absolute; bottom: 5px;" class="bottom2">
       <div>
         <picture>
-          <source type="image/webp" srcset="files/emojis/copyright.webp">
-          <source type="image/png" srcset="files/emojis/copyright.png">
+          <source type="image/webp" srcset="/files/emojis/copyright.webp">
+          <source type="image/png" srcset="/files/emojis/copyright.png">
           <img src="/files/emojis/copyright.png" class="cemoji" alt="©️"/>
         </picture> Copyright 2020 DuckMasterAl</div>
       <div>This Website is Under the <a href="https://github.com/DuckMasterAl/DuckMasterAl.github.io/blob/master/LICENSE">GPL-3.0 License</a></div>
