@@ -72,7 +72,7 @@ body {
 }
 
 .bottom, .bottom2 {
-  position: absolute;
+  /* position: absolute; */
   bottom: 5px;
   width: 100%;
   height: 20px;
