@@ -141,6 +141,10 @@ body {
   text-align: center;
 }
 
+.noi {
+  text-indent: 0px;
+}
+
 .blue {
   color: #00aeff;
 }
