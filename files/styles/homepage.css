@@ -57,6 +57,16 @@ i {
   text-align: left;
 }
 
+.nopadding {
+  padding: 0px;
+  margin: 0px;
+}
+
+.custom-br {
+  display: block;
+  content: '';
+}
+
 .button {
   text-decoration: none;
   padding: 1px 6px;
