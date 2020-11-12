@@ -39,6 +39,11 @@
     <script language="javascript">
     function js_Load() {
       document.body.style.visibility='visible';
+      const urlParams = new URLSearchParams(window.location.search);
+      const myParam = urlParams.get('new');
+      if (myParam == '1') {
+        alert('Hello! You used our new domain to access our website!\nWe are not yet ready to use this as our public site, so you\'re being redirected back to our old website. Sorry for the inconvenience!')
+      }
       console.log(`
                       @@@..@@@@.@@@
                @@@@@@@@@@........#@@@
