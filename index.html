@@ -3,6 +3,7 @@
   <head>
     <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Londrina+Shadow&family=Montserrat&family=Baloo+Tamma+2&family=Comfortaa&display=swap" rel="stylesheet">
     <link href="files/styles/homepage.css" rel="stylesheet">
+    <!-- <script src="files/script.js"></script> -->
     <link rel="icon" href="files/avatar.ico">
     <link rel="shortcut icon" type="image/png" href="https://duck.js.org/files/avatar.webp">
     <meta name="theme-color" content="#00aeff">
@@ -41,9 +42,9 @@
       document.body.style.visibility='visible';
       const urlParams = new URLSearchParams(window.location.search);
       const myParam = urlParams.get('new');
-      if (myParam == '1') {
-        alert('Hello! You used our new domain to access our website!\nWe are not yet ready to use this as our public site, so you\'re being redirected back to our old website. Sorry for the inconvenience!')
-      }
+      // if (myParam != '1') {
+      //   alert('Hello! You used our old domain to access our website! The new website domain will be bduck.xyz - If you came from one of my profiles that is improperly linked, please let me know through one of my contact methods below. Thanks!')
+      // }
       console.log(`
                       @@@..@@@@.@@@
                @@@@@@@@@@........#@@@
@@ -70,12 +71,12 @@
       console.log("We have no errors go away...")
     }
     </script>
-    <div class="buttondiv">
+    <!--sse--><div class="buttondiv">
       <button class="sbutton" onclick="window.open('https://discord.com/users/443217277580738571', '_blank')">Discord</button>
       <button class="sbutton" onclick="window.open('mailto:duckmaster.dev@gmail.com', '_blank')">Email</button>
-      <button class="sbutton" onclick="window.open('https://reddit.com/user/DuckMasterAl', '_blank')">Reddit</button>
+      <button class="sbutton" onclick="window.open('https://github.com/DuckMasterAl', '_blank')">GitHub</button>
       <button class="sbutton" onclick="window.open('https://t.me/duckmasteral', '_blank')">Telegram</button>
-    </div>
+    </div><!--/sse-->
     <br class="custom-br" style="margin-top: 20px;"/><h3 id="projects" class="nopadding">Projects
       <picture>
         <source type="image/webp" srcset="files/emojis/laptop.webp">
@@ -122,26 +123,26 @@
       </div>
     </div>
 
-    <div class="project">
-      <div class="project-image">
-        <a href="https://www.youtube.com/channel/UCr35D4WaXok9l5r5sLfLHmw" target="_blank" rel=noopener rel=noreferrer>
-          <picture>
-            <source type="image/webp" srcset="files/projects/harrypgaming.webp">
-            <source type="image/png" srcset="files/projects/harrypgaming.png">
-            <img src="files/projects/harrypgaming.png" alt="HarryPGaming's Avatar"/>
-          </picture>
-        </a>
-      </div>
-      <div class="project-description">
-        <span>
-          HarryPGaming is a UK based Minecraft & Tutorial YouTuber with around 270 subscribers!
-          <button class="button" onclick="window.open('https://www.youtube.com/channel/UCr35D4WaXok9l5r5sLfLHmw', '_blank')">Learn More</button>
-        </span>
-      </div>
-    </div>
-
     <br class="custom-br" style="margin-top: 25px;"/><h3 class="nopadding">Other Projects I've Helped With</h3><br class="custom-br">
     <div id="other-projects">
+
+      <div class="project">
+        <div class="project-image">
+          <a href="https://www.youtube.com/channel/UCr35D4WaXok9l5r5sLfLHmw" target="_blank" rel=noopener rel=noreferrer>
+            <picture>
+              <source type="image/webp" srcset="files/projects/harrypgaming.webp">
+              <source type="image/png" srcset="files/projects/harrypgaming.png">
+              <img src="files/projects/harrypgaming.png" alt="HarryPGaming's Avatar"/>
+            </picture>
+          </a>
+        </div>
+        <div class="project-description">
+          <span>
+            HarryPGaming is a UK based Minecraft & Tutorial YouTuber with around 270 subscribers!
+            <button class="button" onclick="window.open('https://www.youtube.com/channel/UCr35D4WaXok9l5r5sLfLHmw', '_blank')">Learn More</button>
+          </span>
+        </div>
+      </div>
 
       <div class="project">
         <div class="project-image">
@@ -168,14 +169,14 @@
         <source type="image/webp" srcset="files/emojis/copyright.webp">
         <source type="image/png" srcset="files/emojis/copyright.png">
         <img src="files/emojis/copyright.png" class="cemoji" alt="©️"/>
-      </picture> Copyright 2020 DuckMasterAl - This Website is Under the <a href="https://github.com/DuckMasterAl/DuckMasterAl.github.io/blob/master/LICENSE">GPL-3.0 License</a></div>
+      </picture> Copyright 2020-<script>document.write(new Date().getFullYear())</script> DuckMasterAl - This Website is Under the <a href="https://github.com/DuckMasterAl/DuckMasterAl.github.io/blob/master/LICENSE">GPL-3.0 License</a></div>
     <div class="bottom2">
       <div>
         <picture>
           <source type="image/webp" srcset="files/emojis/copyright.webp">
           <source type="image/png" srcset="files/emojis/copyright.png">
           <img src="files/emojis/copyright.png" class="cemoji" alt="©️"/>
-        </picture> Copyright 2020 DuckMasterAl</div>
+        </picture> Copyright 2020-<script>document.write(new Date().getFullYear())</script> DuckMasterAl</div>
       <div>This Website is Under the <a href="https://github.com/DuckMasterAl/DuckMasterAl.github.io/blob/master/LICENSE">GPL-3.0 License</a></div>
     </div>
   </footer>
