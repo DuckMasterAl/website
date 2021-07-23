@@ -27,12 +27,6 @@ body:
     description: A clear and concise description of what you expected the website to do/display.
   validations:
     required: true
-- type: input
-  attributes:
-    label: What Should Happen?
-    description: A clear and concise description of what you expected the website to do/display.
-  validations:
-    required: true
 - type: textarea
   attributes:
     label: Additional context
