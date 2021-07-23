@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /fox
+Sitemap: https://bduck.xyz/sitemap.xml

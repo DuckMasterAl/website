@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Stylesheets/Javascript -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:wght@300&family=Montserrat:wght@200&family=PT+Sans&family=Open+Sans&display=swap&text=1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%20%21.%2C%26-%27" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:wght@300&family=Montserrat:wght@200&family=PT+Sans&family=Open+Sans&display=swap&text=1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%20%21.%2C%26-%27"></noscript>
+  <link rel="stylesheet" href="../static/style.css">
+  <script src="/static/script.js" type="text/javascript"></script>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="194x194" href="/static/favicon/favicon-194x194.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/static/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/static/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/static/favicon/safari-pinned-tab.svg" color="#99bcff">
+  <link rel="shortcut icon" href="/static/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="msapplication-TileImage" content="/static/favicon/mstile-144x144.png">
+  <meta name="msapplication-config" content="/static/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#99bcff">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@DuckMasterAl"/>
+  <meta name="twitter:title" content="404 | DuckMasterAl"/>
+  <meta name="twitter:creator" content="@DuckMasterAl">
+  <meta name="twitter:description" content="This page doesn't exist!"/>
+  <!-- Google -->
+  <meta name="keywords" content="duckmasteral, bongo, duck, bongo duck, duckmasteral, duckmasterai">
+  <meta name="author" content="DuckMasterAl">
+  <meta name="description" content="This page doesn't exist!">
+  <meta name="robots" content="all">
+  <!-- Discord -->
+  <meta property="og:title" content="404 | DuckMasterAl">
+  <meta property="og:description" content="This page doesn't exist!">
+  <meta property="og:image" itemprop="image" content="https://bduck.xyz/static/avatar.png">
+  <meta property="og:locale" content="en_US">
+  <!-- Misc extra stuff -->
+  <link rel="license" href="/license">
+  <meta charset="UTF-8">
+  <meta http-equiv="content-security-policy" content="upgrade-insecure-requests">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="default-style" content="/static/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 | DuckMasterAl</title>
+  <style>
+    .header-masthead {
+      justify-content: center;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+
+    .support404 {
+      display: block;
+      max-width: 200px;
+      max-height: 200px;
+      width: 100%;
+      height: auto;
+      border: 3.5px solid #C22679;
+      border-radius: 100%;
+      transition-duration: 0.4s;
+    }
+
+    .support404:hover {
+      background-color: #8C26AF;
+      border: 3.5px solid #E43FBB;
+      cursor: default;
+    }
+
+    #support1 {
+      display: block;
+    }
+
+    #support2 {
+      display: none;
+    }
+
+    @media (max-width: 599px) {
+      .support404, #support1, #support2 {
+        display: none;
+      }
+      #text-div-404 {
+        position: relative;
+        left: 5%;
+        font-size: 70%;
+      }
+  }
+  </style>
+</head>
+<body>
+  <script language="javascript">
+  function changeImage() { // advaith made this thank you blob | https://advaith.io
+       var image1 = document.getElementById("support1");
+       var image2 = document.getElementById("support2");
+       if (!image1.style.display || image1.style.display==='block'){
+         var mp3Source = '<source src="' + '/static/404-files/ping' + '.mp3" type="audio/mpeg">';
+         var oggSource = '<source src="' + '/static/404-files/ping' + '.ogg" type="audio/ogg">';
+         var embedSource = '<embed hidden="true" autostart="true" loop="false" src="' + '/static/404-files/ping' +'.mp3">';
+         image1.innerHTML='<audio autoplay="autoplay">' + mp3Source + oggSource + embedSource + '</audio>'
+         image1.style.display='none';
+         image2.style.display='block';
+       } else if (image2.style.display==='block') {
+         image2.style.display='none';
+         image1.style.display='block';
+       }
+     }
+  </script>
+  <header>
+    <div class="header-masthead">
+      <div style="flex-shrink: 3;">
+        <picture>
+          <source type="image/webp" srcset="/static/404-files/support.webp">
+          <source type="image/png" srcset="/static/404-files/support.png">
+          <img src="files/support.png" class="support404" id="support1" alt="Bongo Duck Support Image" onclick="changeImage()"/>
+        </picture>
+        <picture>
+          <source type="image/webp" srcset="/static/404-files/angrysupport.webp">
+          <source type="image/png" srcset="/static/404-files/angrysupport.png">
+          <img src="files/angrysupport.png" class="support404" id="support2" alt="Angry Bongo Duck Support Image" onclick="changeImage()"/>
+        </picture>
+      </div>
+      <div style="margin: 1em;"></div>
+      <div id="text-div-404" style="flex-shrink: 0;">
+        <h1>404 | Duck Not Found!</h1>
+        <h2>Initiating a Duck Support Team...</h2>
+      </div>
+    </div>
+    <hr>
+  </header>
+
+  <p>This page has either has been moved to a different link or removed from the site.</p>
+  <p>If you think this page should exist please, <a class="blue" href="https://github.com/DuckMasterAl/website/issues/new/choose">make an issue on github.</a></p>
+  <p class="center"><button class="button" onclick="window.history.back();">Go Back</button> | <a class="button" href="/index.html">Homepage</a></p>
+</body>
+<footer>
+  <picture>
+    <source type="image/webp" srcset="/static/copyright.webp">
+    <source type="image/png" srcset="/static/copyright.png">
+    <img src="/static/copyright.png" width=15 height=15 alt="©️" style="vertical-align: -2px;"/>
+  </picture>
+  <span>DuckMasterAl <span class="footer_date"></span><a title="View the source code on GitHub!" href="https://github.com/DuckMasterAl/website"><img width=22 height=22 src="/static/github.svg" style="vertical-align: -4px;" alt="GitHub Logo"/></a></span>
+</footer>
+</html>
