@@ -57,12 +57,14 @@ header > img:hover {
   border: 3.5px solid #E43FBB;
 }
 
-.top-header > span {
+.top-header > h1 {
   color: #51B6FF;
   font-family: 'Nunito', sans-serif;
   letter-spacing: 3px;
   padding-bottom: 5px;
   padding-left: 20px;
+  font-weight: normal;
+  font-size: revert;
 }
 
 .button, .invite-button {
