@@ -29,23 +29,18 @@ async def schedule_cache():
     asyncio.ensure_future(cache.recache(cache))
 
 @app.route('/')
-@app.route('/index')
-@app.route('/index.html')
 async def homepage():
     return await render_template("index.html", projects=cache.projects, socials=cache.socials)
 
 @app.route('/legal')
-@app.route('/legal.html')
 async def legal():
     return await render_template("legal.html")
 
 @app.route('/safety')
-@app.route('/safety.html')
 async def safety():
     return await render_template("safety.html")
 
 @app.route('/fox')
-@app.route('/fox.html')
 async def fox():
     return await render_template("fox.html")
 
