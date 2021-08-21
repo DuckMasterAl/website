@@ -1,5 +1,5 @@
 import cache, asyncio, sys
-from quart import Quart, render_template, redirect, request
+from quart import Quart, render_template, redirect, request, make_response
 
 app = Quart(__name__)
 app.url_map.strict_slashes = False
@@ -73,7 +73,7 @@ async def old_file_route(file_name):
 
 @app.errorhandler(404)
 async def page_not_found(e):
-    return await render_template("404.html")
+    return await make_response(await render_template("404.html"), 404)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000, debug=True)
