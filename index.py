@@ -40,10 +40,6 @@ async def legal():
 async def safety():
     return await render_template("safety.html")
 
-@app.route('/fox')
-async def fox():
-    return await render_template("fox.html")
-
 @app.route('/discord')
 async def discord():
     return redirect(cache.social_keys['discord'])
