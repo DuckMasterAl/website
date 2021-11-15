@@ -16,13 +16,13 @@ async def path_redirects():
     if path != request.path:# redirect if something has changed
         return redirect(path)
 
-if sys.platform != 'linux':# Add no cache headers if running locally
+if sys.platform != 'linux':
+    @app.after_request
     async def cache_headers(r):
         r.headers["Cache-Control"] = "no-cache, no-store, must-revalidate, public, max-age=0"
         r.headers["Pragma"] = "no-cache"
         r.headers["Expires"] = "0"
         return r
-    app.after_request(cache_headers)
 
 @app.before_serving
 async def schedule_cache():
