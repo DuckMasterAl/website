@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'include/meta-tags.html' %}
+    <style>
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Tablet portrait up */
+        @media (min-width: 600px) {
+            #resources{
+                justify-content: left;
+            }
+        }
+
+        /* Tablet landscape up*/
+        @media (min-width: 900px) {
+            #resources{
+                justify-content: space-evenly;
+            }
+        }
+    </style>
+    <meta name="twitter:title" content="Safety Hotlines"/>
+    <meta property="og:title" content="Safety Hotlines">
+    <meta property="og:url" cotnent="https://bduck.xyz/hotlines">
+    <title>Safety Hotlines</title>
+</head>
+<header>
+    {% include 'include/navbar.html' %}
+    <div style="text-align: center; margin: auto 10px;">
+        <h1>Safety Hotlines</h1>
+        <p style="margin-bottom: 5px;">It may be hard to talk to a hotline, but it's very important, and even though it may be scary at first, you got this, and I'm proud of you for making it this far.</p>
+        <p style="color: var(--warning-color); font-size: 14px; margin-top: 0px;">If this is an emergency and you or someone else are in immediate danger, please <a href="https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers" target="_blank" rel="noopener">contact emergency services</a> immediately.</p>
+    </div>
+</header>
+<body>
+    <div id="resources" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+        <div>
+            <h3 style="margin-left: 15px; margin-bottom: 0px;">U.S. Resources</h3>
+            <ul>
+                <li>National Suicide Hotline:
+                    <ul>
+                        <li><a href="https://suicidepreventionlifeline.org/chat/" target="_blank" rel="noopener">Online Chat</a></li>
+                        <li><a href="tel:1-800-273-8255" target="_blank" rel="noopener">Call: 800-273-8255</a></li>
+                    </ul>
+                <li>Nacional de Prevención del Suicidio: <a href="tel:1-888-628-9454" target="_blank" rel="noopener">888-628-9454</a></li>
+                <li><a href="https://www.imalive.org/" target="_blank" rel="noopener">IMAlive Crisis Chatine</a></li>
+                <li><a href="sms:741741&body=HOME" target="_blank" rel="noopener">Crisis Text Line: Text HOME to 741-741</a></li>
+                <li>The Trevor Project (LGBTQIA+)
+                    <ul>
+                        <li><a href="https://www.thetrevorproject.org/get-help-now/" target="_blank" rel="noopener">Online Chat</a></li>
+                        <li><a href="tel:1-866-488-7386" target="_blank" rel="noopener">Call: 866-488-7386</a></li>
+                        <li><a href="sms:678678&body=START" target="_blank" rel="noopener">Text START to 678-678</a></li>
+                    </ul>
+                </li>
+                <li><a href="tel:1-877-565-8860" target="_blank" rel="noopener">The Trans Lifeline: 877-565-8860</a></li>
+                <li><a href="https://www.veteranscrisisline.net" target="_blank" rel="noopener">Veterans Crisis Line</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 style="margin-left: 15px; margin-bottom: 0px;">International Resources</h3>
+            <ul>
+                <li><a href="https://findahelpline.com/" target="_blank" rel="noopener">Find local resources on findahelpline.com</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines" target="_blank" rel="noopener">Find resources through Wikipedia's list of hotlines</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers" target="_blank" rel="noopener">Find emergency services through Wikipedia's list of emergency services</a></li>
+            </ul>
+        </div>
+    </div>
+    <p style="margin: auto 15px; margin-bottom: 10px;">Notice: The information on this website was created for educational purposes and is not a substitute for professional medical advice or treatment.
+        If someone actively needs help, call emergency services immediately. This information was not created or endorsed by medical professionals and should be used as an example resource only.
+        Resources may not work outside of the United States and are not fact-checked or endorced by DuckMasterAl and their associated projects. All information was last updated on January 3rd, 2022.</p>
+</body>
+{% include 'include/footer.html' %}
+</html>

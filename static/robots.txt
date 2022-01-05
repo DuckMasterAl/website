@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /fox
+Allow: /
+
 Sitemap: https://bduck.xyz/sitemap.xml

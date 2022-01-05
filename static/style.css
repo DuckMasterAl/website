@@ -1,16 +1,18 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: background-color var(--animation-delay-flash) linear;
+  -ms-transition: background-color var(--animation-delay-flash) linear;
+  transition: background-color var(--animation-delay-flash) linear;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-header {
-  text-align: center;
-  padding-top: 20px;
-}
-
 body {
   visibility: hidden;
-  background-color: #2A2A2A;
-  color: white;
+  background-color: var(--background-color);
+  color: var(--text-color);
 
   height: 100vh;
   margin: 0;
@@ -18,70 +20,112 @@ body {
   flex-direction: column;
 }
 
-h1 {
-  color: #51B6FF;
-  font-family: 'Nunito', sans-serif;
-  letter-spacing: 3px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
-  padding-left: 5px;
-  padding-right: 5px;
+h1, h4 {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 a {
-  color: #0CF373;
-  transition-duration: 0.2s;
+  text-decoration: none;
+  color: var(--link-color);
+
+  -webkit-transition: 150ms;
+  -moz-transition: 150ms;
+  -o-transition: 150ms;
+  transition: 150ms;
 }
 
 a:hover {
-  color: #05B855;
+  color: var(--link-hover-color);
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
-  padding-left: 15px;
-}
-
-li {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.button {
-  font-family: 'PT Sans', sans-serif;
-  letter-spacing: 0.5px;
-  color: white;
-  background-color: #488BFD;
+.navbar-links {
+  color: var(--text-color);
   text-decoration: none;
-  padding: 1px 8px;
-  transition-duration: 0.2s;
-  border: 2px solid #488BFD;
-  border-radius: 4px;
-  font-size: 14.5px;
-}
-
-.button:hover {
-  color: white;
-  cursor: pointer;
-  background-color: #3D78DB;
-  border: 2px solid #3D78DB;
-}
-
-.center {
+  background-color: var(--project-card-color);
+  width: 80px;
+  margin-right: 20px;
   text-align: center;
+  border-radius: 5px;
+  font-family: 'Fira Code';
+
+  -webkit-transition: 150ms;
+  -moz-transition: 150ms;
+  -o-transition: 150ms;
+  transition: 150ms;
 }
 
-.emoji-icon {
-  vertical-align: -3px;
+.navbar-links:hover {
+  color: var(--text-color);
+  background-color: var(--navbar-onhover-color);
+}
+
+#theme-button {
+  background-color: var(--theme-change-button);
+  margin-right: 5px;
+}
+
+#theme-button:hover {
+  background-color: var(--theme-icon-onhover);
+}
+
+#navbar-and-theme-div {
+  margin: 5px 15px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 footer {
-  font-family: 'Nunito', sans-serif;
   padding-left: 20px;
   padding-bottom: 10px;
   margin-top: auto;
+}
+
+/* Phone */
+@media (max-width: 599px) {
+  #bongo-homepage {
+    margin-right: 2vw;
+  }
+  #bongo-homepage > img {
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-links {
+    padding: 5px 10px;
+  }
+  #navbar-and-theme-div {
+    margin-top: 10px;
+    justify-content: center;
+  }
+  #theme-button {
+    margin-right: 0px;
+  }
+}
+
+/* Tablet portrait up */
+@media (min-width: 600px) {
+  #bongo-homepage {
+    margin-right: auto;
+  }
+  #bongo-homepage > img {
+    width: 50px;
+    height: 50px;
+  }
+  .navbar-links {
+    padding: 5px 0px;
+  }
+  #navbar-and-theme-div {
+    margin-top: 5px;
+    justify-content: space-between;
+  }
+  #theme-button {
+    margin-right: 5px;
+  }
+}
+
+/* Tablet landscape up*/
+@media (min-width: 900px) {
+  /* add stuff (maybe)! */
 }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'include/meta-tags.html' %}
+    <style>
+        .artist-name-highlight {
+            color: var(--link-color);
+        }
+
+        .artist-name-highlight:hover {
+            color: var(--link-hover-color);
+        }
+    </style>
+    <meta name="twitter:title" content="Bongo Duck Sketches"/>
+    <meta property="og:title" content="Bongo Duck Sketches">
+    <meta property="og:url" cotnent="https://bduck.xyz/bongo">
+    <title>Bongo Duck Sketches</title>
+</head>
+<header>
+    {% include 'include/navbar.html' %}
+    <div style="margin: auto 10px; text-align: center;">
+        <h1>Bongo Duck Sketches :V</h1>
+        <p>All the art on this page is licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a> and owned by <a href="legal">DuckMasterAl.</a></p>
+        <p>A special thank you to all the artists who have made Bongo Duck Art!! 
+            <svg style="vertical-align: -2px; margin-left: 2px;" width="17" height="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path fill="#DD2E44" d="M35.885 11.833c0-5.45-4.418-9.868-9.867-9.868-3.308 0-6.227 1.633-8.018 4.129-1.791-2.496-4.71-4.129-8.017-4.129-5.45 0-9.868 4.417-9.868 9.868 0 .772.098 1.52.266 2.241C1.751 22.587 11.216 31.568 18 34.034c6.783-2.466 16.249-11.447 17.617-19.959.17-.721.268-1.469.268-2.242z"/></svg>
+        </p>
+    </div>
+</header>
+<body>
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center;">
+        {% for image in bongo_images %}
+        <div style="display: flex; flex-direction: column; align-items: center; background-color: var(--project-card-color); margin: 10px 10px; border-radius: 5%;">
+            <img style="margin: 5px 10px; border-radius: 4%;" src="../static/bongo/{{image['url']}}" alt="{{image['name']}} by {{image['artist']['name']}}" loading="lazy"/>
+            <h3 style="margin: 2px auto;">{{image['name']}}</h3>
+            <span style="margin: 5px auto;"><a href="{{image['artist']['url']}}" style="color: var(--text-color)" target="_blank" rel="noopener">Drawn by <span class="artist-name-highlight">{{image['artist']['name']}}</span>
+                <svg style="vertical-align: -2px; margin-left: 2px;" height="17" width="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path style="fill: var(--text-color);" d="M15 9l6-6s6-6 12 0 0 12 0 12l-8 8s-6 6-12 0c-1.125-1.125-1.822-2.62-1.822-2.62l3.353-3.348S14.396 18.396 16 20c0 0 3 3 6 0l8-8s3-3 0-6-6 0-6 0l-3.729 3.729s-1.854-1.521-5.646-.354L15 9z"/><path style="fill: var(--text-color);" d="M20.845 27l-6 6s-6 6-12 0 0-12 0-12l8-8s6-6 12 0c1.125 1.125 1.822 2.62 1.822 2.62l-3.354 3.349s.135-1.365-1.469-2.969c0 0-3-3-6 0l-8 8s-3 3 0 6 6 0 6 0l3.729-3.729s1.854 1.521 5.646.354l-.374.375z"/></svg></h3>
+            </a></span>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+{% include 'include/footer.html' %}
+</html>

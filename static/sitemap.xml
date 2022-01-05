@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://bduck.xyz</loc>
-</url>
-<url>
-<loc>https://bduck.xyz/safety</loc>
-</url>
-<url>
-<loc>https://bduck.xyz/legal</loc>
-</url>
+<url><loc>https://bduck.xyz</loc></url>
+<url><loc>https://bduck.xyz/safety</loc></url>
+<url><loc>https://bduck.xyz/hotlines</loc></url>
+<url><loc>https://bduck.xyz/legal</loc></url>
+<url><loc>https://bduck.xyz/bongo</loc></url>
 </urlset>
