@@ -5,22 +5,6 @@
     <meta name="twitter:title" content="404 | DuckMasterAl"/>
     <meta property="og:title" content="404 | DuckMasterAl">
     <meta property="og:url" cotnent="https://bduck.xyz/404">
-    <style>
-        .melano-easteregg-highlight {
-            color: var(--link-color);
-            cursor: pointer;
-        }
-
-        .melano-easteregg-highlight:hover {
-            color: var(--link-hover-color);
-        }
-    </style>
-    <script>
-        function melanoEasterEgg() {
-            document.getElementById("melano-easteregg-1").style.display = "none";
-            document.getElementById("melano-easteregg-2").style.display = "flex";
-        }
-    </script>
     <title>404 | DuckMasterAl</title>
 </head>
 <header>
@@ -40,15 +24,9 @@
         <div style="margin-left: -13px; margin-right: 6px;">|</div>
         <div><a class="navbar-links" href="/" style="padding-left: 10px; padding-right: 10px;">Homepage</a></div>
     </div>
-    <div id="melano-easteregg-1" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 10px;">
-        <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
-            <img src="/static/melano.png" alt="Melano's Profile Picture" style="width: 50px; height: 50px; border-radius: 20%; margin: 0px 10px; transition: left 0.5s ease-out;"/>
-            <p style="text-align: center; margin-right: 5px;"><span style="color: var(--text-color); cursor: pointer;" onclick="melanoEasterEgg();">Melano</span> wishes you good luck on your quest to finding the right page!</p>
-        </div>
-        <div id="melano-easteregg-2" style="display: none; flex-direction: column; align-items: center;">
-            <p style="margin: 10px 5px 10px;">Oh, no! You scared him away!! Let's try to get his attention with some food.</p>
-            <p style="margin: 0px 5px;">Should we give Melano a <span class="melano-easteregg-highlight">Banana</span> or a <span class="melano-easteregg-highlight">Strawberry?</span></p>
-        </div>
+    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; margin-top: 10px;">
+        <img src="/static/melano.png" alt="Melano's Profile Picture" style="width: 50px; height: 50px; border-radius: 20%; margin: 0px 10px;"/>
+        <p style="text-align: center; margin-right: 5px;">Melano wishes you good luck on your quest to finding the right page!</p>
     </div>
 </body>
 {% include 'include/footer.html' %}
