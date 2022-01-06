@@ -4,11 +4,12 @@ from quart import Quart, render_template, redirect, request, make_response
 app = Quart(__name__)
 app.url_map.strict_slashes = False
 
-def misc_info(request, path):
+def misc_info(request, path="..", safety=False):
     return {
                 "path": path,
                 "theme-color": request.headers["User-Agent"] == "Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)",
-                "og-image": request.headers["User-Agent"] == "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+                "og-image": request.headers["User-Agent"] == "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+                "safety-copyright": safety
         }
 
 @app.before_request
@@ -37,23 +38,23 @@ async def schedule_cache():
 
 @app.route('/')
 async def homepage():
-    return await render_template("index.html", projects=cache.projects, socials=cache.socials, misc_info=misc_info(request, ".."))
+    return await render_template("index.html", projects=cache.projects, socials=cache.socials, misc_info=misc_info(request))
 
 @app.route('/legal')
 async def legal():
-    return await render_template("legal.html", characters=cache.characters, misc_info=misc_info(request, ".."))
+    return await render_template("legal.html", characters=cache.characters, misc_info=misc_info(request))
 
 @app.route('/safety')
 async def safety():
-    return await render_template("safety.html", misc_info=misc_info(request, ".."))
+    return await render_template("safety.html", misc_info=misc_info(request, safety=True))
 
 @app.route('/hotlines')
 async def hotlines():
-    return await render_template("hotlines.html", misc_info=misc_info(request, ".."))
+    return await render_template("hotlines.html", misc_info=misc_info(request, safety=True))
 
 @app.route('/bongo')
 async def bongo():
-    return await render_template("bongo.html", bongo_images=cache.bongo_images, misc_info=misc_info(request, ".."))
+    return await render_template("bongo.html", bongo_images=cache.bongo_images, misc_info=misc_info(request))
 
 @app.route('/discord')
 async def discord():
