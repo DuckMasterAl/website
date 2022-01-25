@@ -63,7 +63,7 @@ function changeTheme(theme, setCookie = true) {
         document.body.style.setProperty("--navbar-onhover-color", "#bfbfbf");
         document.body.style.setProperty("--theme-icon-onhover", "#42434A");
         document.body.style.setProperty("--link-color", "#013ff1");
-        document.body.style.setProperty("--warning-color", "#b70000");
+        document.body.style.setProperty("--warning-color", "#b30000");
         document.body.style.setProperty("--link-hover-color", "#3552a7");
 
         document.getElementById("light-theme-sun").style.display = 'block';
