@@ -50,7 +50,7 @@ function changeTheme(theme, setCookie = true) {
         if (setCookie) {
             let date = new Date();
             date.setFullYear(date.getFullYear() + 10);
-            document.cookie = "theme=dark; expires=" + date.toUTCString(); + "; path=/; Secure";
+            document.cookie = "theme=dark; path=/; expires=" + date.toUTCString(); + ";";
         }
     }
     else if (theme == 'light') {
@@ -72,7 +72,7 @@ function changeTheme(theme, setCookie = true) {
         if (setCookie) {
             let date = new Date();
             date.setFullYear(date.getFullYear() + 10);
-            document.cookie = "theme=light; expires=" + date.toUTCString(); + "; path=/; Secure";
+            document.cookie = "theme=light; path=/; expires=" + date.toUTCString(); + ";";
         }
     }
 
