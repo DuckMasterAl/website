@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Bongo Duck",
+        "url": "../static/avatar.png"
+    },
+    {
+        "name": "Quacky",
+        "url": "https://quacky.xyz/files/avatar.png"
+    },
+    {
+        "name": "Ducxo",
+        "url": "../static/ducxo.png"
+    }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Quacky Bot",
+    "icon": "quacky",
+    "description": "Quacky is an advanced utility bot that increases automation in your server. Commands range from fun to moderation.",
+    "misc": "Bot Developer - Feb 2020",
+    "link": "https://quacky.xyz"
+  },
+  {
+    "name": "gwainn",
+    "icon": "grain",
+    "description": "grain of sand is an artist and frog. They are open for commissions and have created art like Bongo Duck.",
+    "misc": "Web Developer - Sep 2020",
+    "link": "https://grainofsand.art"
+  },
+  {
+    "name": "Slingex",
+    "icon": "slingex",
+    "description": "Level up your Discord server with premium moderation & utility features",
+    "misc": "Bot Administrator - Jan 2021",
+    "link": "https://slingex.xyz"
+  },
+  {
+    "name": "DuckGuard",
+    "icon": "duckguard",
+    "description": "A moderation Discord bot for DuckSquad, a 40,000+ member Discord server.",
+    "misc": "Bot Developer - Aug 2021",
+    "link": "https://discord.gg/duck"
+  },
+  {
+    "name": "Dredd Bot",
+    "icon": "dredd",
+    "description": "A multipurpose Discord bot, that is aiming to become one of the best and non-premium bots amongst other Discord bots.",
+    "misc": "Bot Administrator - Nov 2020",
+    "link": "https://dreddbot.xyz"
+  },
+  {
+    "name": "Code Linter",
+    "icon": "codelinter",
+    "description": "Get Github Action Notifications in Discord.",
+    "misc": "Bot & Web Developer - Dec 2020",
+    "link": "https://git.bduck.xyz",
+    "note": "deleted"
+  },
+  {
+    "name": "BreMea Dev",
+    "icon": "bremea",
+    "description": "BreMea Development is a creative team focused on bringing innovative interactive experiences to new mediums.",
+    "misc": "Community Manager - Mar 2021",
+    "link": "https://bremea.com",
+    "note": "archived"
+  },
+  {
+    "name": "HarryPGaming",
+    "icon": "harry",
+    "description": "HarryPGaming is a UK based Minecraft & Tutorial YouTuber.",
+    "misc": "Manager - Dec 2018",
+    "link": "https://www.youtube.com/channel/UCr35D4WaXok9l5r5sLfLHmw",
+    "note": "archived"
+  },
+  {
+    "name": "Discord Extreme List",
+    "icon": "delly",
+    "description": "Discord Extreme List is an unbiased Discord Bot, Server, and Template List.",
+    "misc": "Bot Reviewer - Aug 2020",
+    "link": "https://discordextremelist.xyz",
+    "note": "archived"
+  },
+  {
+    "name": "Chatwind",
+    "icon": "chatwind",
+    "description": "Chatwind provides a free video meeting software for everyone to use. Use Chatwind for parties, meetings, online school & more!",
+    "misc": "Site Administrator - Jan 2021",
+    "note": "deleted",
+    "background-color": "#60B1F5"
+  }
+]
